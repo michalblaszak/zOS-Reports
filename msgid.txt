@@ -1,0 +1,1726 @@
+
+===================
+20149 06:55:35.46
+USER(Z58851  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 06:55:35.46
+USER(Z58851  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 06:55:35.46
+USER(Z58851  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 06:55:45.45
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+JES2.START.BAT CL(OPERCMDS)
+
+===================
+20149 06:55:45.45
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 06:55:45.45
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 06:59:32.20
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 07:00:44.00
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 07:02:25.09
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 07:03:06.48
+USER(Z57752  ) GROUP(STUDENT ) NAME(####################
+FULL VIOLATION ON COMMAND CONNECT
+
+===================
+20149 07:10:38.00
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 07:24:08.70
+USER(Z56932  ) GROUP(STUDENT2) NAME(####################
+Z57060.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 07:24:08.70
+USER(Z56932  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 07:24:08.70
+USER(Z56932  ) GROUP(STUDENT2) NAME(####################
+FROM Z57060.** (G)
+
+===================
+20149 07:32:17.34
+USER(Z57006  ) GROUP(STUDENT8) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 07:39:59.36
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+/z/z59164 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000028405609)
+
+===================
+20149 07:39:59.36
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO OPENDIR
+
+===================
+20149 07:39:59.36
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(R--)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 07:45:44.40
+USER(Z56932  ) GROUP(STUDENT2) NAME(####################
+Z56948.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 07:47:26.94
+USER(Z56932  ) GROUP(STUDENT2) NAME(####################
+Z56948.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 07:50:26.76
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 07:56:23.56
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 07:57:58.76
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 07:59:02.30
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 08:01:40.11
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 08:02:45.79
+USER(Z59164  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:03:16.35
+USER(Z59164  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:03:29.84
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+/z/z59164 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000028405609)
+
+===================
+20149 08:03:29.84
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO OPENDIR
+
+===================
+20149 08:03:29.84
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(R--)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 08:03:39.50
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+/z/z59164 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000028405609)
+
+===================
+20149 08:03:39.50
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO OPENDIR
+
+===================
+20149 08:03:39.50
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(R--)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 08:03:44.41
+USER(Z59164  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:06:17.55
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+/z/z58678 CL(DIRACC  ) FID(E5D7E6D9D2E9001C000000003F1D4BF4)
+
+===================
+20149 08:06:17.55
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO OPENDIR
+
+===================
+20149 08:06:17.55
+USER(Z59367  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(R--)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 08:06:40.94
+USER(Z57034  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:06:40.94
+USER(Z57034  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:06:40.94
+USER(Z57034  ) GROUP(STUDENT8) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 08:06:41.17
+USER(Z57034  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:07:15.02
+USER(Z56948  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJEC.CL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 08:20:34.75
+USER(UUCP    ) GROUP(UUCPG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 08:21:17.93
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:21:54.45
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:33:09.29
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2019.PUBLIC.SHARED.DATA CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:33:09.29
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:33:09.29
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.MTM2019.PUBLIC.** (G)
+
+===================
+20149 08:33:10.99
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2019.PUBLIC.SHARED.DATA CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:33:10.99
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:33:10.99
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.MTM2019.PUBLIC.** (G)
+
+===================
+20149 08:33:12.71
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2019.PUBLIC.SHARED.DATA CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:33:12.71
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:33:12.71
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.MTM2019.PUBLIC.** (G)
+
+===================
+20149 08:41:35.40
+USER(Z53199  ) GROUP(STUDENT4) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 08:41:35.40
+USER(Z53199  ) GROUP(STUDENT4) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:41:35.40
+USER(Z53199  ) GROUP(STUDENT4) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 08:43:59.13
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:43:59.13
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:43:59.13
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 08:44:03.09
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:44:03.09
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:44:03.09
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 08:44:04.73
+USER(Z52278  ) GROUP(STUDENT9) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 08:50:52.95
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 08:50:52.95
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 08:50:52.95
+USER(Z56998  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 08:51:44.09
+USER(Z58828  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 08:58:21.18
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 08:59:54.35
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:02:05.74
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:04:41.34
+USER(Z58831  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:05:56.12
+USER(Z58831  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:08:33.59
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 09:08:33.59
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 09:08:33.59
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 09:08:38.61
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 09:08:38.61
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 09:08:38.61
+USER(Z58820  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 09:23:17.06
+USER(Z58828  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:23:46.77
+USER(Z58828  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:24:25.19
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:24:43.09
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - EXCESSIVE PASSWORD OR PASS PHRASE ATT
+
+===================
+20149 09:28:14.07
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+/z/Z59267/ CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001
+
+===================
+20149 09:28:14.07
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO MKDIR
+
+===================
+20149 09:28:14.07
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 09:30:05.44
+USER(Z#####  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 09:32:31.20
+USER(Z59267  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:32:33.31
+USER(Z59388  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 09:32:53.34
+USER(Z59388  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:06:07.79
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+JES2.START.BAT CL(OPERCMDS)
+
+===================
+20149 10:06:07.79
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:06:07.79
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:06:13.97
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 10:06:13.97
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:06:13.97
+USER(Z54194  ) GROUP(STUDENT9) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:14:47.38
+USER(Z59498  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:16:27.52
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:20:07.52
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:22:51.67
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:24:02.93
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 10:38:06.19
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+Z57005.TRNG.DATA.EMPLOYEE CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 10:38:06.19
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:38:06.19
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+FROM Z57005.** (G)
+
+===================
+20149 10:38:16.79
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+Z57005.TRNG.DATA.EMPLOYEE CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 10:38:16.79
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:38:16.79
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+FROM Z57005.** (G)
+
+===================
+20149 10:38:21.44
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+Z57005.TRNG.DATA.EMPLOYEE CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 10:38:21.44
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:38:21.44
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+FROM Z57005.** (G)
+
+===================
+20149 10:39:15.10
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+Z57005.TRNG.DATA.EMPLOYEE CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 10:39:15.10
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:39:15.10
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+FROM Z57005.** (G)
+
+===================
+20149 10:50:45.92
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:45.92
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:45.92
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:49.12
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:49.12
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:49.12
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:51.08
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:51.08
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:51.08
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:52.96
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:52.96
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:52.96
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:54.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:54.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:54.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:56.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:56.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:56.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:50:59.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:50:59.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:50:59.93
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 10:51:06.82
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 10:51:06.82
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 10:51:06.82
+USER(Z59615  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 11:03:54.17
+USER(Z57646  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 11:16:27.61
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E1R CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:16:48.86
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E1R CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:17:00.04
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E1R CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:17:27.31
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E1R CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:17:35.27
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E1R CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:18:53.72
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 11:18:53.72
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:18:53.72
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 11:18:56.84
+USER(Z57564  ) GROUP(STUDENT ) NAME(####################
+Z57539.L1P.POLICY.E2R CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:20:16.76
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.CONTEST.MAY21 CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:20:16.76
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:20:16.76
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 11:20:19.60
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.CONTEST.MAY21 CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 11:20:19.60
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:20:19.60
+USER(Z57089  ) GROUP(STUDENT8) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 11:20:24.50
+USER(Z59163  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 11:50:16.37
+USER(Z53504  ) GROUP(STUDENT4) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 11:50:36.90
+USER(Z59672  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 11:52:09.81
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+Z57005.LRNG.M2.LOADLIB CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 11:52:09.81
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:52:09.81
+USER(Z57069  ) GROUP(STUDENT8) NAME(####################
+FROM Z57005.** (G)
+
+===================
+20149 11:54:41.65
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:54:41.65
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:41.65
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:41.78
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.PDS.DATA CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:54:41.78
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:41.78
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:41.98
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.SOURCE CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 11:54:41.98
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:41.98
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:58.33
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2017.PUBLIC.SEQ.DATA CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 11:54:58.33
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:58.33
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:58.88
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:54:58.88
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:58.88
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:58.99
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.PDS.DATA CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:54:58.99
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:58.99
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:59.10
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.SEQ.DATA CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 11:54:59.10
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:59.10
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:54:59.20
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2018.PUBLIC.SOURCE CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 11:54:59.20
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:54:59.20
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 11:55:07.95
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+ZOS.MTM2017.PUBLIC.SEQ.DATA CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 11:55:07.95
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 11:55:07.95
+USER(Z59614  ) GROUP(STUDENT2) NAME(####################
+FROM ZOS.** (G)
+
+===================
+20149 12:07:16.38
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 12:07:16.38
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 12:07:16.38
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 12:12:20.89
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 12:12:20.89
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 12:12:20.89
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 12:18:47.07
+USER(WEBADM  ) GROUP(IMWEB   ) NAME(UNKNOWN
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 12:22:29.04
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 12:22:29.04
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 12:22:29.04
+USER(Z57848  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 12:26:23.23
+USER(Z59252  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 12:26:37.27
+USER(Z59252  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 12:27:21.42
+USER(Z59252  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 12:51:02.96
+USER(Z55112  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20149 12:51:02.96
+USER(Z55112  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 12:51:02.96
+USER(Z55112  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 13:13:44.93
+USER(Z57734  ) GROUP(STUDENT ) NAME(####################
+Z57728.EMPL.NEW.DATA CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 13:15:20.02
+USER(Z58282  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:15:36.66
+USER(Z58282  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:16:07.00
+USER(Z57734  ) GROUP(STUDENT ) NAME(####################
+Z57728.EMPL.COB.DATA CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 13:16:11.00
+USER(Z58282  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:16:39.62
+USER(Z58282  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - EXCESSIVE PASSWORD OR PASS PHRASE ATT
+
+===================
+20149 13:17:36.11
+USER(Z58282  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 13:18:54.92
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 13:19:25.75
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 13:20:28.83
+USER(Z59625  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 13:20:56.53
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 13:20:56.53
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 13:20:56.53
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 13:20:56.76
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 13:26:26.04
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 13:26:26.04
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 13:26:26.04
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 13:26:26.26
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKA)
+
+===================
+20149 13:35:01.61
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 13:35:01.61
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 13:35:01.61
+USER(Z56953  ) GROUP(STUDENT2) NAME(####################
+FROM Z56932.** (G)
+
+===================
+20149 13:37:48.65
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+/z/z#####/zjava.java
+
+===================
+20149 13:37:48.65
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+CL(DIRSRCH ) FID(E5D7E6D9D2E9001C0000000000030001)
+
+===================
+20149 13:37:48.65
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO STAT
+
+===================
+20149 13:37:48.65
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(--X)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 13:38:17.88
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+/z/z#####/zjava.java
+
+===================
+20149 13:38:17.88
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+CL(DIRSRCH ) FID(E5D7E6D9D2E9001C0000000000030001)
+
+===================
+20149 13:38:17.88
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO STAT
+
+===================
+20149 13:38:17.88
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(--X)  ACCESS ALLOWED(OTHER      ---)
+
+===================
+20149 13:44:57.83
+USER(Z#####  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 13:50:50.18
+USER(Z51230  ) GROUP(STUDENT4) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:51:14.20
+USER(Z51230  ) GROUP(STUDENT4) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:51:33.07
+USER(Z51230  ) GROUP(STUDENT4) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 13:52:41.36
+USER(Z59332  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 14:08:03.75
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 14:08:03.75
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 14:08:03.75
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 14:08:10.19
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 14:08:10.19
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 14:08:10.19
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 14:08:14.68
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 14:08:14.68
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 14:08:14.68
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 14:25:54.06
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+JES2.CANCEL.BATOUT CL(OPERCMDS)
+
+===================
+20149 14:25:54.06
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 14:25:54.06
+USER(Z58821  ) GROUP(STUDENT2) NAME(####################
+FROM JES2.** (G)
+
+===================
+20149 14:43:02.07
+USER(Z59163  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 16:42:20.11
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.DATA1 CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 16:42:20.11
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:42:20.11
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:42:42.13
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.RACF.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 16:42:42.13
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:42:42.13
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:42:54.06
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.SOURCE CL(DATASET ) VOL(MTMZ03)
+
+===================
+20149 16:42:54.06
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:42:54.06
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:43:49.74
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.ZOWE.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 16:43:49.74
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:43:49.74
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:43:59.97
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.ZOWE.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 16:43:59.97
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:43:59.97
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:44:05.73
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.ZOWE.JCL CL(DATASET ) VOL(VPWRKB)
+
+===================
+20149 16:44:05.73
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:44:05.73
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 16:49:04.94
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+IBMUSER.SOURCE CL(DATASET ) VOL(MTMZ03)
+
+===================
+20149 16:49:04.94
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20149 16:49:04.94
+USER(Z55894  ) GROUP(STUDENT ) NAME(####################
+FROM IBMUSER.** (G)
+
+===================
+20149 17:40:52.06
+USER(Z56270  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 17:59:43.76
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - PASS PHRASE IS NOT VALID
+
+===================
+20149 18:26:23.08
+USER(Z#####  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 18:57:58.57
+USER(Z59163  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 18:58:17.30
+USER(Z59163  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 19:11:55.19
+USER(Z59663  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 19:18:18.49
+USER(UUCP    ) GROUP(UUCPG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 19:57:02.51
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - PASS PHRASE IS NOT VALID
+
+===================
+20149 19:58:34.23
+USER(Z55465  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 20:03:09.68
+USER(Z58892  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 20:03:42.39
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 20:03:42.39
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 20:03:42.39
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 21:07:06.88
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 21:07:06.88
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 21:07:06.88
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 21:10:06.24
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 21:10:06.24
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 21:10:06.24
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 21:14:05.51
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 21:14:05.51
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 21:14:05.51
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 21:18:14.47
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 21:18:14.47
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 21:18:14.47
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 21:37:10.61
+USER(UUCP    ) GROUP(UUCPG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20149 22:00:01.74
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 22:00:01.74
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 22:00:01.74
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 22:15:32.92
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:15:49.13
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:16:10.58
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:16:26.57
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:16:59.59
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:17:42.45
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:36:21.46
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:42:21.67
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:42:39.98
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:44:28.44
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:46:41.69
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:47:06.60
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 22:47:06.60
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 22:47:06.60
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 22:49:30.07
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+/z/z59072 CL(DIRACC  ) FID(E5D7E6D9D2E9001C0000000000010001)
+
+===================
+20149 22:49:30.07
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+INSUFFICIENT AUTHORITY TO RMDIR
+
+===================
+20149 22:49:30.07
+USER(Z59072  ) GROUP(STUDENT2) NAME(####################
+ACCESS INTENT(-W-)  ACCESS ALLOWED(OTHER      R-X)
+
+===================
+20149 22:56:31.20
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 22:56:53.17
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 23:04:06.35
+USER(Z57851  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - REVOKED USER ACCESS ATTEMPT
+
+===================
+20149 23:05:50.81
+USER(Z57017  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKD)
+
+===================
+20149 23:11:51.41
+USER(Z57017  ) GROUP(STUDENT8) NAME(####################
+Z56932.LRNG.DATA.PROJECT.CL CL(DATASET ) VOL(VPWRKC)
+
+===================
+20149 23:31:07.29
+USER(Z58808  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 23:33:35.96
+USER(Z58061  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20149 23:53:24.30
+USER(Z57013  ) GROUP(STUDENT8) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20150 00:06:27.13
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20150 00:06:27.13
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20150 00:06:27.13
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20150 00:24:23.59
+USER(Z58019  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20150 00:43:27.97
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+JES2.RESTART.BAT CL(OPERCMDS)
+
+===================
+20150 00:43:27.97
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+INSUFFICIENT ACCESS AUTHORITY
+
+===================
+20150 00:43:27.97
+USER(Z57846  ) GROUP(STUDENT ) NAME(####################
+FROM JES2.** (G)
+
+===================
+20150 00:53:41.29
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - PASS PHRASE IS NOT VALID
+
+===================
+20150 00:53:43.11
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:43.75
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:44.33
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:50.27
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:51.08
+USER(Z59642  ) GROUP(STUDENT2) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20150 00:53:52.22
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:53.26
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:54.24
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:55.16
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 00:53:59.64
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 01:16:04.76
+USER(Z57931  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+
+===================
+20150 01:19:40.26
+USER(SSHD    ) GROUP(SSHDG   ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD ENTERED AT TERMINAL
+
+===================
+20150 01:22:43.72
+USER(Z57804  ) GROUP(STUDENT ) NAME(####################
+LOGON/JOB INITIATION - INVALID PASSWORD
+

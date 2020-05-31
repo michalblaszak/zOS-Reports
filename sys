@@ -1,0 +1,134 @@
+/* rexx */
+"allocate dataset(ch15.output(sys)) file(msgout) shr reuse"
+"execio 0 diskw msgout (stem msg. open"
+
+messages.cpc = "IBM Z Mainframe type is "
+messages.cpupr = 'CPU percent busy for the system is '
+messages.uic = 'High unreferenced interval count is '
+messages.realafc = 'Real storage available frame count is '
+messages.stcnum = 'Number of active started tasks is '
+messages.stunum = 'Number of active TSO users is '
+messages.jobnum = 'Number of active batch jobs is '
+messages.syslevel = "Operating System Level is "
+/* ---------------- */
+u = userid()
+d = date()
+t = time()
+msg.1 = '***************************************'
+msg.2 = '*             SYS Report              *'
+msg.3 = '*                                     *'
+msg.3 = overlay(u d t, msg.3, 3)
+msg.4 = '***************************************'
+
+say msg.1
+say msg.2
+say msg.3
+say msg.4
+/*--------------------*/
+"execio * diskw msgout (stem msg. "
+rc=isfcalls('ON')
+/* ---------------------*/
+/* Access the SYS panel */
+/* ---------------------*/
+Address SDSF "ISFEXEC SYS"
+if rc<>0 then
+  Exit rc
+/* Get fixed field name from first word */
+/* of isfcols special variable          */
+fixedField = word(isfcols,1)
+/* Say "Number of rows returned:" isfrows */
+/* Process all rows */
+do ix=1 to isfrows
+  /* List all columns for row */
+  do jx=1 to words(isfcols)
+    col = word(isfcols,jx)
+    Select
+     When col = SYSNAME   then nop
+     When col = TOKEN     then nop
+     When col = SYSLEVEL  then
+       call save_msg value(col"."ix) messages.syslevel
+     When col = CPUPR     then
+       call save_msg value(col"."ix) messages.cpupr
+     When col = SIO       then nop
+     When col = AUXPCT    then nop
+     When col = CSAPCT    then nop
+     When col = SQAPCT    then nop
+     When col = ECSAPCT   then nop
+     When col = ESQAPCT   then nop
+     When col = UIC       then
+       call save_msg value(col"."ix) messages.uic
+     When col = SPOOLPCT  then nop
+     When col = CADSPCT   then nop
+     When col = PAGERATE  then nop
+     When col = REAL      then nop
+     When col = REALAFC   then
+       call save_msg value(col"."ix) messages.realafc
+     When col = REALAFCB  then nop
+     When col = FIXPCT    then nop
+     When col = FIXBPCT   then nop
+     When col = MAXASID   then nop
+     When col = FREEASID  then nop
+     When col = BADASID   then nop
+     When col = STCNUM    then
+       call save_msg value(col"."ix) messages.stcnum
+     When col = TSUNUM    then
+       call save_msg value(col"."ix) messages.tsunum
+     When col = JOBNUM    then
+       call save_msg value(col"."ix) messages.jobnum
+     When col = WTORNUM   then nop
+     When col = SYSPLEX   then nop
+     When col = LPAR      then nop
+     When col = VMUSER    then nop
+     When col = JESNAME   then nop
+     When col = JESNODE   then nop
+     When col = SMF       then nop
+     When col = IPLVOL    then nop
+     When col = IPLUNIT   then nop
+     When col = IPLDATE   then nop
+     When col = IPLTYPE   then nop
+     When col = IPLDAYS   then nop
+     When col = LOADPARM  then nop
+     When col = CVTVERID  then nop
+     When col = LOADDSN   then nop
+     When col = LOADUNIT  then nop
+     When col = IEASYS    then nop
+     When col = IEASYM    then nop
+     When col = GRS       then nop
+     When col = HWNAME    then nop
+     When col = CPC       then
+       call save_msg value(col"."ix) messages.cpc
+     When col = MSU       then nop
+     When col = SYSMSU    then nop
+     When col = AVGMSU    then nop
+     When col = CPUNUM    then nop
+     When col = ZAAPNUM   then nop
+     When col = ZIIPNUM   then nop
+     When col = OSCONFIG  then nop
+     When col = EDT       then nop
+     When col = NUCLST    then nop
+     When col = IEANUC    then nop
+     When col = IODFDSN   then nop
+     When col = IODFDATE  then nop
+     When col = CATDSN    then nop
+     When col = CATVOL    then nop
+     When col = MLA       then nop
+     When col = CATTYPE   then nop
+     When col = NETID     then nop
+     When col = SSCP      then nop
+     When col = STATDATE  then nop
+     When col = IPLCUNIT  then nop
+     When col = IODFUNIT  then nop
+     When col = IODFCUNIT then nop
+     Otherwise                 nop
+  end
+end
+"free file(msgout)"
+exit 0
+/*----------------------------------------------------*/
+save_msg: procedure
+  arg val msg_txt
+  say msg_txt val
+  msg.1 = msg_txt val
+  "execio 1 diskw msgout (stem msg.      "
+return
+

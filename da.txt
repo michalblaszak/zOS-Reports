@@ -1,0 +1,93 @@
+-----------------------------------------------------
+| JNAME  | STEPN  | PROCS  | JOBID  |OWNERID | CPU% |
+-----------------------------------------------------
+|*MASTER*|        |        |STC06622|+MASTER+|  0.00|
+|PCAUTH  |PCAUTH  |        |        |        |  0.00|
+|RASP    |RASP    |        |        |        |  0.00|
+|TRACE   |TRACE   |        |        |        |  0.00|
+|DUMPSRV |DUMPSRV |DUMPSRV |        |        |  0.00|
+|XCFAS   |XCFAS   |IEFPROC |        |        |  0.00|
+|GRS     |GRS     |        |        |        |  0.00|
+|SMSPDSE |SMSPDSE |        |        |        |  0.00|
+|CONSOLE |CONSOLE |        |        |        |  0.00|
+|WLM     |WLM     |IEFPROC |        |        |  0.00|
+|ANTMAIN |ANTMAIN |IEFPROC |        |        |  0.00|
+|ANTAS000|ANTAS000|IEFPROC |        |        |  0.00|
+|DEVMAN  |DEVMAN  |IEFPROC |        |        |  0.00|
+|GTZ     |GTZ     |GTZ     |        |        |  0.00|
+|OMVS    |OMVS    |OMVS    |        |        |  0.00|
+|PCIE    |PCIE    |IEFPROC |        |        |  0.00|
+|FPGHWAM |FPGHWAM |IEFPROC |        |        |  0.00|
+|IEFSCHAS|IEFSCHAS|        |        |        |  0.00|
+|JESXCF  |JESXCF  |IEFPROC |        |        |  0.00|
+|ALLOCAS |ALLOCAS |        |        |        |  0.00|
+|SMS     |SMS     |IEFPROC |        |        |  0.00|
+|IOSAS   |IOSAS   |IEFPROC |        |        |  0.00|
+|IXGLOGR |IXGLOGR |IEFPROC |        |        |  0.00|
+|AXR     |AXR     |IEFPROC |        |        |  0.00|
+|CEA     |CEA     |IEFPROC |        |        |  0.00|
+|SMF     |SMF     |IEFPROC |        |        |  0.00|
+|RESOLVER|RESOLVER|EZBREINI|        |        |  0.00|
+|LLA     |LLA     |LLA     |        |        |  0.00|
+|ZFS     |ZFS     |ZFZGO   |        |        |  0.00|
+|JES2AUX |JES2AUX |        |        |        |  0.00|
+|HZR     |HZR     |IEFPROC |        |        |  0.00|
+|JES2    |JES2    |IEFPROC |        |        |  0.00|
+|VLF     |VLF     |VLF     |        |        |  0.00|
+|RSED2   |STEP1   |        |STC06664|STCRSE  |  0.00|
+|SDSF    |SDSF    |SDSF    |STC06615|STRTASK |  0.00|
+|EPWFFST |FFST    |EPWFFST |        |        |  0.00|
+|RSED9   |STEP1   |        |STC06665|STCRSE  |  0.00|
+|RSED2   |STEP1   |        |STC06666|STCRSE  |  0.00|
+|HZSPROC |HZSPROC |HZSSTEP |STC06620|STCOPER |  0.00|
+|RSED4   |STEP1   |        |STC06668|STCRSE  |  0.00|
+|VTAM    |VTAM    |VTAM    |STC06616|STRTASK |  0.00|
+|RSED1   |STEP1   |        |STC06667|STCRSE  |  0.00|
+|RRS     |RRS     |RRS     |        |        |  0.00|
+|FTPSERVE|STEP1   |        |STC06681|TCPIP   |  0.00|
+|OAM     |OAM     |IEFPROC |STC06617|STRTASK |  0.00|
+|RACF    |RACF    |RACF    |STC06663|STRTASK |  0.00|
+|CATALOG |CATALOG |IEFPROC |        |        |  0.00|
+|JES2MON |JES2MON |IEFPROC |        |        |  0.00|
+|TN3270S |TN3270S |TN3270  |STC06677|STCOPER |  0.00|
+|TCAS    |TCAS    |TCAS    |STC06674|STRTASK |  0.00|
+|TN3270M |TN3270M |TN3270  |STC06676|STCOPER |  0.00|
+|TCPIP   |TCPIP   |TCPIP   |STC06671|TCPIP   |  0.00|
+|RSED3   |STEP1   |        |STC06669|STCRSE  |  0.00|
+|CSF     |CSF     |CSF     |STC06675|STCOPER |  0.00|
+|TN3270  |TN3270  |TN3270  |STC06672|TCPIP   |  0.00|
+|JMON    |JMON    |JMON    |STC06680|STCJMON |  0.00|
+|RSED    |RSED    |RSED    |STC06679|STCRSE  |  0.00|
+|EXITMVS |EXITMVS |ST01    |STC06673|STCOPER |  0.00|
+|SSHD1   |STEP1   |        |STC06670|STCOPER |  0.00|
+|VMCF    |VMCF    |IEFPROC |        |        |  0.00|
+|SDSFAUX |SDSFAUX |SDSFAUX |STC06662|STCOPER |  0.00|
+|BPXOINIT|BPXOINIT|BPXOINIT|        |        |  0.00|
+|TNF     |TNF     |IEFPROC |        |        |  0.00|
+|SSHD7   |STEP1   |        |STC06683|STCOPER |  0.00|
+|Z59663  |DBPROCCG|TCP00024|TSU06734|Z59663  |  0.00|
+|Z58822  |DBPROCCG|TCP00012|TSU06712|Z58822  |  0.00|
+|Z59332  |DBPROCCG|TCP00030|TSU06737|Z59332  |  0.00|
+|SSHD3   |*OMVSEX |        |STC06687|STCOPER |  0.00|
+|SSHD5   |STEP1   |        |STC06688|STCOPER |  0.00|
+|Z59663  |*OMVSEX |        |STC06689|Z59663  |  0.00|
+|Z57102  |DBPROCCG|TCP00005|TSU06692|Z57102  |  0.00|
+|Z57931  |*OMVSEX |        |STC06691|Z57931  |  0.00|
+|DBCGMSTR|DBCGMSTR|IEFPROC |STC06693|STCOPER |  0.00|
+|DBCGIRLM|DBCGIRLM|        |STC06695|STCOPER |  0.00|
+|Z58828  |DBPROCBG|TCP00006|TSU06700|Z58828  |  0.00|
+|SSHD5   |*OMVSEX |        |STC06698|STCOPER |  0.00|
+|IBMUSER |DBPROCCG|TCP00007|TSU06699|IBMUSER |  0.00|
+|Z59367  |DBPROCCG|TCP00008|TSU06701|Z59367  |  0.00|
+|Z59150  |DBPROCCG|TCP00020|TSU06726|Z59150  |  0.00|
+|DBCGDBM1|DBCGDBM1|IEFPROC |STC06704|STCOPER |  0.00|
+|DBCGDIST|DBCGDIST|IEFPROC |STC06705|STCOPER |  0.00|
+|DBCGADMT|DBCGADMT|STARTADM|STC06706|STCOPER |  0.00|
+|Z57811  |DBPROCCG|TCP00011|TSU06708|Z57811  |  0.00|
+|Z58870  |DBPROCCG|TCP00036|TSU06746|Z58870  |  0.00|
+|Z59623  |DBPROCCG|TCP00021|TSU06729|Z59623  |  0.00|
+|Z58260  |DBPROCCG|TCP00029|TSU06738|Z58260  |  0.00|
+|Z58892  |DBPROCCG|TCP00033|TSU06740|Z58892  |  0.00|
+|Z57931  |DBPROCCG|TCP00035|TSU06744|Z57931  |  0.00|
+-----------------------------------------------------
+

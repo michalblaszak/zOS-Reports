@@ -1,0 +1,9 @@
+/* REXX */
+
+say "Provide the user ID:"
+pull userID
+userID = strip(userID)
+command = """exec 'z57931.ch15.clist(logons)' '"userID"'"""
+interpret command
+exit 0
+

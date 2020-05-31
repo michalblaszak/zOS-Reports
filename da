@@ -1,0 +1,62 @@
+/* REXX */
+rc=isfcalls('ON')
+"allocate dataset(ch15.output(da)) file(msgout) shr reuse"
+"execio 0 diskw msgout (stem msg. open"
+/* Access SDSF panel */
+isffilter = ''
+isfowner = ''
+isfprefix = ''
+Address SDSF "ISFEXEC DA"
+/* Address SDSF "ISFEXEC LNK" */
+if rc<>0 then
+  Exit rc
+  say ISFDISPLAY
+/* Get fixed field name from first word */
+/* of isfcols special variable          */
+fixedField = word(isfcols,1)
+Say "Number of rows returned:" isfrows
+/* Process all rows */
+h1 = "-----------------------------------------------------"
+h2 = "| JNAME  | STEPN  | PROCS  | JOBID  |OWNERID | CPU% |"
+say h1
+say h2
+say h1
+msg.1 = h1
+msg.2 = h2
+msg.3 = h1
+"execio 3 diskw msgout (stem msg. "
+/**********************************************************/
+do ix=1 to isfrows
+  /* Say "Now processing job:" value(fixedField"."ix) */
+  /* List all columns for row */
+  rec. = "N/A"
+  do jx=1 to words(isfcols)
+     col = word(isfcols,jx)
+
+     select
+       when col = "JNAME" then rec.jname = value(col"."ix)
+       when col = "STEPN" then rec.stepn = value(col"."ix)
+       when col = "PROCS" then rec.procs = value(col"."ix)
+       when col = "JOBID" then rec.jobid = value(col"."ix)
+       when col = "OWNERID" then rec.ownerid = value(col"."ix)
+       when col = "CPUPR" then rec.cpupr = value(col"."ix)
+       otherwise nop
+     end /* select */
+     /* Say "  Column" col"."ix "has the value:" value(col"."ix) */
+  end
+
+  row = "|"left(rec.jname,8)"|"left(rec.stepn,8)"|" || ,
+left(rec.procs,8)"|"left(rec.jobid,8)"|" || ,
+left(rec.ownerid,8)"|"format(rec.cpupr,3,2) || "|"
+  say row
+  msg.1 = row
+  "execio 1 diskw msgout (stem msg. "
+end /* do isfrows */
+
+say h1
+msg.1 = h1
+"execio 1 diskw msgout (stem msg. "
+/**********************************************************/
+rc=isfcalls('OFF')
+"free file(msgout)"
+

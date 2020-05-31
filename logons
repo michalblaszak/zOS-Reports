@@ -1,0 +1,122 @@
+/* REXX */
+arg PARAM1
+
+/************************************************/
+if PARAM = 'ALL' then do
+    say 'The output will be saved in ch15.output(logons)'
+    "allocate dataset(ch15.output(logons)) file(msgout) shr reuse"
+  end
+else do
+    say 'The output will be saved in ch15.output(logonid)'
+    "allocate dataset(ch15.output(logonid)) file(msgout) shr reuse"
+  end
+"execio 0 diskw msgout (stem msg. open"
+/************************************************/
+rc=isfcalls('ON')
+/*******************************************************************/
+/*** Default log search is current day only                      ***/
+/*** Code below enables log search for multiple days             ***/
+/*******************************************************************/
+isfdate="mmddyyyy /"  /*Date format for special variables*/
+currday=date("C")
+currday=currday-2     /*yesterday */
+isflogstartdate=date("U",currday,"C") /*yesterday in mm/dd/yy*/
+isflogstarttime=time("N") /*current time*/
+isflogstopdate=date("U")  /*current date in mm/dd/yy*/
+isflogstoptime=time("N")  /*current time*/
+index=0
+array.0=0
+/*******************************************************************/
+do until isfnextlinetoken=''
+   Address SDSF "ISFLOG READ TYPE(SYSLOG)"
+   /* Walk through all lines in a line */
+   do ix=1 to isfline.0
+     /* Split the line into fields */
+     call LogRecFields
+
+  /* Example                                                 */
+  /* N 4000000 S0W1     20149 06:42:18.20 TSU06803 00000090  */
+  /*                               $HASP373 Z54598   STARTED */
+     if substr(JobIdentifier, 1, 3) = 'TSU' then do
+         userId = substr(MessageLine, 2, 6)
+         if PARAM1 = 'ALL' | PARAM1 = userId then
+           select
+             when substr(MessageLine, 11, 7) = 'STARTED' then
+               call fill_started
+             when substr(MessageLine, 11, 5) = 'ENDED' then
+               call fill_ended
+             otherwise nop
+           end /* select */
+     end /* do-if */
+   end /* do */
+  isfstartlinetoken = isfnextlinetoken
+  call print_report
+end /* do until */
+rc=isfcalls("off")
+"free file(msgout)"
+exit
+
+LogRecFields:
+  RecordType    = substr(isfline.ix,1,1)
+  CommandType   = substr(isfline.ix,2,1)
+  RouteCode     = substr(isfline.ix,3,8)
+  SysName       = substr(isfline.ix,11,4)
+  JulianDate    = substr(isfline.ix,20,5)
+  TimeStamp     = substr(isfline.ix,26,11)
+  JobIdentifier = substr(isfline.ix,38,8)
+  MessageFlags  = substr(isfline.ix,47,8)
+  MessageArea   = substr(isfline.ix,57,64)
+  MessageLine   = substr(isfline.ix,65,56)
+return
+/***********************************************/
+fill_started:
+  index = index + 1
+  array.0 = index
+  array.index.1UserId = userId
+  array.index.2JobId = JobIdentifier
+  array.index.3StartCmd = 'STARTED'
+  array.index.4StartDate = JulianDate TimeStamp
+  array.index.5EndCmd = ''
+  array.index.6EndDate = ''
+return
+/***********************************************/
+fill_ended:
+  do i=0 to array.0
+    if JobIdentifier = array.i.2JobId then do
+      array.i.5EndCmd = 'ENDED'
+      array.i.6EndDate = JulianDate Timestamp
+      leave
+    end
+  end
+return
+/************************************************/
+print_report:
+hd.1 = '****************************************'
+hd.2 = '*         Logon/Logoff report          *'
+hd.3 = '* User:                                *'
+hd.3 = overlay(PARAM1, hd.3, 8)
+hd.4 = '****************************************'
+footer = '************ End of Report *************'
+
+say hd.1
+say hd.2
+say hd.3
+say hd.4
+msg.1 = hd.1
+msg.2 = hd.2
+msg.3 = hd.3
+msg.4 = hd.4
+"execio 4 diskw msgout (stem msg. "
+
+do i = 1 to array.0
+  say array.i.1UserId array.i.2JobId array.i.3StartCmd array.i.4StartDate,
+    array.i.5EndCmd array.i.6EndDate
+  msg.1 = array.i.1UserId array.i.2JobId array.i.3StartCmd array.i.4StartDate,
+      array.i.5EndCmd array.i.6EndDate
+  "execio 1 diskw msgout (stem msg. "
+end
+say footer
+msg.1 = footer
+"execio 1 diskw msgout (stem msg. "
+return
+
